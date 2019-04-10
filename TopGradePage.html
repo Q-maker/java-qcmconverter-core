@@ -1,0 +1,2607 @@
+<script>
+    window.currentQuestionsArrayLength = 2;window.questionIndex = -1;window.highscoreId = 79844;
+
+</script><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="alternate" hreflang="en" href="https://topgradeapp.com/fr/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="id" href="https://topgradeapp.com/id/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="ms" href="https://topgradeapp.com/ms/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="de" href="https://topgradeapp.com/de/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="en" href="https://topgradeapp.com/en/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="es" href="https://topgradeapp.com/es/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="fr" href="https://topgradeapp.com/fr/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="it" href="https://topgradeapp.com/it/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="nl" href="https://topgradeapp.com/nl/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="pl" href="https://topgradeapp.com/pl/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="pt" href="https://topgradeapp.com/pt/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="vi" href="https://topgradeapp.com/vi/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="tr" href="https://topgradeapp.com/tr/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="el" href="https://topgradeapp.com/el/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="ru" href="https://topgradeapp.com/ru/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="ar" href="https://topgradeapp.com/ar/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="hi" href="https://topgradeapp.com/hi/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="ja" href="https://topgradeapp.com/ja/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="zh" href="https://topgradeapp.com/zh/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="zh-Hant"
+          href="https://topgradeapp.com/zh-Hant/playQuiz/animals-9"/>
+    <link rel="alternate" hreflang="ko" href="https://topgradeapp.com/ko/playQuiz/animals-9"/>
+    <meta name="csrf-token" content="D2pX5asGz2mPUtm6SBWPOX2Za1LpXEeYuxM7uZaX">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" content="notranslate"/>
+    <title> Animals </title>
+    <meta name="description" content="Jouer Animals">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/css/all.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/star-rating.min.css" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/css/_all-skins.min.css">
+    <style>
+            .circleBase {
+                border-radius: 50%;
+                behavior: url(PIE.htc);
+            }
+            .primary-background-color {background-color: #0069dc !important; background-image: none !important;}
+            .topgrade-color-text {color: #0069dc !important;}
+            .primary-foreground-color {color: white !important;}
+            .secondary-background-color {background-color: #f5f5f5 !important; background-image: none !important;}
+            .secondary-foreground-color {color: #323648 !important;}
+            .material-design-h-margin {margin-left: 8px; margin-right: 8px;}
+            .material-design-h-padding {padding-left: 8px; padding-right: 8px;}
+            .make-background-color {background-color: #00a65a !important; background-image: none !important;}
+            .make-foreground-color {color: #00a65a !IMPORTANT;}
+            .play-background-color {background-color: #E01A59 !important; background-image: none !important;}
+            .play-foreground-color {color: #E01A59 !IMPORTANT;}
+            .share-background-color {background-color: #ECB32D !important; background-image: none !important;}
+            .share-foreground-color {color: #ECB32D !important;}
+            .btn-success {background-color: #00a65a !important; border: 0;}
+            .medium-font-size {font-size: 18px;}
+            .medium-plus-font-size {font-size: 18px;}
+            h1, h2, h3, h4, h5, h6, p, a {font-family: 'Lato', sans-serif; line-height: 1.5; font-weight: 400; letter-spacing: 0.75px;}
+            a {color: #333333;}
+            .icon-bar-background-color {background-color: white !important;}
+            .alert-warning {background-image: none !important;}
+            .alert-danger   {background-image: none !important;}
+            .alert-success    {background-image: none !important;}
+            .alert-link  {background-image: none !important;}
+            .card-borderless {
+                background-color: white;
+                box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+            .card {
+                border: 2px solid #fafafa !important;
+                background-color: white;
+                box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+            .clickable-card {
+                border: 2px solid #fafafa !important;
+                white-space: normal;
+                background-color: white;
+                box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                min-width: 100%;
+            }
+            .clickable-card:hover{
+                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            }
+            .feature-font-heading{
+              font-size: 7rem;
+            }
+            @media (min-width: 1351px) {
+                .hide-on-collapse{}
+                .show-on-collapse{display: none!important;}
+            }
+            @media (max-width: 1350px) {
+                .hide-on-collapse{display: none!important;}
+                .show-on-collapse{}
+                .drop-down-link {
+                    min-width: 200px;
+                }
+                .navbar-header {
+                    float: none;
+                }
+                .navbar-left,.navbar-right {
+                    float: none !important;
+                }
+                .navbar-toggle {
+                    display: block;
+                }
+                .navbar-collapse {
+                    border-top: 1px solid transparent;
+                    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+                }
+                .navbar-fixed-top {
+                    top: 0;
+                    border-width: 0 0 1px;
+                }
+                .navbar-collapse.collapse {
+                    display: none!important;
+                }
+                .navbar-nav {
+                    float: none!important;
+                    margin-top: 7.5px;
+                }
+                .navbar-nav>li {
+                    float: none;
+                }
+                .navbar-nav>li>a {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .collapse.in{
+                    display:block !important;
+                }
+            }
+            @media (max-width: 1300px) {
+              .feature-font-heading{
+                font-size: 5rem;
+              }
+            }
+            @media (max-width: 700px) {
+              .feature-font-heading{
+                font-size: 3rem;
+              }
+            }
+            .feature-font-heading-smaller{
+              font-size: 5rem;
+            }
+            @media (max-width: 1300px) {
+              .feature-font-heading-smaller{
+                font-size: 4rem;
+              }
+            }
+            @media (max-width: 700px) {
+              .feature-font-heading-smaller{
+                font-size: 2.5rem;
+              }
+            }
+            .feature-font-subheading{
+              color: #5b5e6d; font-size: 20px;
+            }
+            .btn-tall{
+              vertical-align: middle; font-size: 14px; padding: 16px 32px;
+            }
+            html {
+              position: relative;
+              min-height: 100%;
+            }
+            body {
+              margin-bottom: 160px;
+            }
+            .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
+                background-color: #0500dc;
+                background-image: none;
+                color: white;
+            }
+            .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+                color: white;
+                background-image: none;
+                background-color: #0500dc;
+            }
+            .dropdown-menu {
+                border-color: #0500dc;
+            }
+            .dropdown-menu>li>a:hover {
+                background-color: #0500dc;
+                background-image: none;
+                color: white;
+            }
+            ul li:hover ul {
+                display:block;
+            }
+            .footer {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 160px;
+              background-color: #0069dc;
+            }
+            .container {
+                padding: 2px 16px;
+            }
+            .helper {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .center-md-container-items {}
+            @media (min-width: 992px) {
+                .center-md-container-items {
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+
+                align-items: center;
+                }
+            }
+            /* pull-right on all except xs devices */
+            @media (min-width: 992px) {
+                .pull-right-sm {
+                    float: right;
+                }
+                .pull-left-sm {
+                    float: left;
+                }
+            }
+
+            .box {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 10;
+                background: none;
+                background-color: transparent;
+                border: none;
+                pointer-events: none;
+                box-shadow: none;
+            }
+
+
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/js/all.js"></script>
+    <script src="/js/star-rating.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta property="og:description" content="Topgrade"/>
+    <meta property="og:title" content="Topgrade"/>
+    <meta property="og:site_name" content="Topgrade"/>
+    <meta property="og:type" content="article"/>
+    <meta name="csrf-token" content="D2pX5asGz2mPUtm6SBWPOX2Za1LpXEeYuxM7uZaX"/>
+    <script>
+        document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';
+
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-P6Q7R9J');
+
+    </script>
+    <script>
+                $(document).ready(function() {
+                $('input').keypress(function(e) {
+                    var code = (e.keyCode ? e.keyCode : e.which);
+                    if ( (code==13) || (code==10))
+                        {
+                        $(this).blur();
+                        $(this).next('input').focus();
+                        return false;
+                        }
+                    });
+            });
+
+
+    </script>
+    <script>
+                (function(d){
+                    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement('script'); js.id = id; js.async = true;
+                    js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2&appId=392136660982283&autoLogAppEvents=1';
+                    ref.parentNode.insertBefore(js, ref);
+                }(document));
+
+
+    </script>
+</head>
+<body style="padding: 0px; border: 0px;">
+<div class="box hidden-xs">
+    <div class="pull-right">
+        <div style="pointer-events: auto;" class="fb-page"
+             data-href="https://www.facebook.com/TopgradeApp/" data-tabs="timeline" data-width="180"
+             data-height="70" data-small-header="true" data-adapt-container-width="true"
+             data-hide-cover="true" data-show-facepile="false">
+            <blockquote cite="https://www.facebook.com/TopgradeApp/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/TopgradeApp/">Topgrade</a></blockquote>
+        </div>
+    </div>
+</div>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6Q7R9J"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<nav class="card-borderless navbar navbar-default primary-background-color material-design-h-padding navbar-fixed-top"
+     style="border-radius:0; border-width: 0;">
+    <div class="container-fluid material-design-h-margin"
+         style="margin-top: 10px; margin-bottom: 10px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Basculer La Navigation</span>
+                <span class="icon-bar icon-bar-background-color"></span>
+                <span class="icon-bar icon-bar-background-color"></span>
+                <span class="icon-bar icon-bar-background-color"></span>
+            </button>
+            <a href="/">
+                <img style="margin: 3px; height: 41.92px;" class="pull-left" alt="Logo"
+                     src="/img/topgradeLogo.svg">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+             style="max-height: 70vh !important;">
+            <ul class="nav navbar-nav navbar-right" style="max-height: 70vh  !important;">
+                <li><a class="primary-foreground-color medium-plus-font-size" href="/"><i
+                        class="fas fa-home"></i>&nbsp;Accueil</a></li>
+                <li><a class="primary-foreground-color medium-plus-font-size" href="/focus"><i
+                        class="fas fa-clock"></i>&nbsp;Concentrer</a></li>
+                <li><a class="primary-foreground-color medium-plus-font-size" href="/planner"><i
+                        class="fas fa-calendar-alt"></i>&nbsp;Planificateur</a></li>
+                <li><a class="primary-foreground-color medium-plus-font-size" href="/forums"><i
+                        class="fas fa-comments"></i>&nbsp;Forum</a></li>
+                <li><a class="primary-foreground-color medium-plus-font-size" href="/messages"><i
+                        class="fas fa-bell"></i>&nbsp;Message </a></li>
+                <li class="hide-on-collapse"><p
+                        class="primary-foreground-color medium-plus-font-size hi"
+                        style="padding-top: 12px;">|</p></li>
+                <li class="dropdown-submenu pull-left">
+                    <a href="#"
+                       class="drop-down-link primary-foreground-color medium-plus-font-size dropdown-toggle"
+                       data-toggle="dropdown" role="button" aria-expanded="false">
+                        <div class="card circleBase"
+                             style="float: left; border-width: 1px !important;">
+                            <img class="circleBase" style="max-width: 24px; max-height: 24px;"
+                                 src="/img/default_profile.png"/>
+                        </div>&nbsp;
+                        <span class="show-on-collapse">istat</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu primary-background-color" role="menu">
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/user/scores"><i class="fas fa-poll"></i>&nbsp; Résultats</a>
+                        </li>
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/userProfile"><i class="fas fa-thumbs-up"></i>&nbsp; Améliorer</a>
+                        </li>
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/user/profile/settings"><i class="fas fa-user"></i>&nbsp;
+                            Profil</a></li>
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/user/settings"><i class="fas fa-cog"></i>&nbsp; Réglages</a>
+                        </li>
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/contactUs"><i class="fas fa-envelope"></i>&nbsp; Contact</a>
+                        </li>
+                        <li><a class="primary-foreground-color medium-plus-font-size"
+                               href="/auth/logout"><i class="fas fa-sign-out-alt"></i>&nbsp;
+                            Connectez - Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div style="margin-bottom: 92px;"></div>
+<style>
+    .topgrade-click-and-drag:hover {
+                cursor: grab;
+    }
+    .highlight {
+        background-color: yellow;
+    }
+    .highlight-inverted {
+        background-color: black;
+    }
+            .play-font {}
+        .vertical-alignment-helper {
+        display:table;
+        height: 100%;
+        width: 100%;
+        pointer-events:none;
+        padding: 8px;
+    }
+    .vertical-align-center {
+        display: table-cell;
+        vertical-align: middle;
+        pointer-events:none;
+    }
+    .modal-content {
+        width:inherit;
+        max-width:inherit;
+        height:inherit;
+        margin: 0 auto;
+        pointer-events: all;
+    }
+
+
+</style>
+<script>
+    var MAX_QUESTION_COUNT = 15;
+    var currentQuestionNumber = 1;
+    // Scoring
+    var totalNumberCorrect = 0;
+    var totalNumberIncorrect = 0;
+    var totalNumberSkipped = 0;
+
+    var currentQuestionType = 0;
+    var url = window.location.href;
+    var captured = /key=([^&]+)/.exec(url);
+    var captured2 = /arrayLength=([^&]+)/.exec(url);
+    var captured3 = /noCor=([^&]+)/.exec(url);
+    var captured4 = /noIncor=([^&]+)/.exec(url);
+    var captured5 = /noSkip=([^&]+)/.exec(url);
+    var captured6 = /hId=([^&]+)/.exec(url);
+
+    if (captured != null) {
+
+        currentQuestionsArrayLength = Number(captured2[1]);
+        questionIndex = - 1;
+        currentQuestionNumber = Number(captured[1]);
+        totalNumberCorrect = Number(captured3[1]);
+        totalNumberIncorrect = Number(captured4[1]);
+        totalNumberSkipped = Number(captured5[1]);
+
+        if (captured6 != null) {
+
+            var highscoreId = Number(captured6[1]);
+
+        }
+    }
+
+    if (typeof currentPage === 'undefined' || currentPage === null) {
+
+        // variable is undefined or null
+
+    } else {
+
+        currentQuestionNumber = ((currentPage - 1) * MAX_QUESTION_COUNT) + 1;
+
+    }
+
+    count = 1;
+    count2 = 0;
+
+    // Fill-in-the-blanks
+    var revealAllAnswers2 = false;
+    var revealAllAnswers3 = false;
+    var currentNumberCorrect = 0;
+    var modifiedCount = 0;
+
+    function checkBlankBox(id) {
+
+        var res = id.split("answerCount");
+        var answerCountNumber = res[1];
+        var strfixed1 = document.getElementById(count + 'input' + answerCountNumber).value.replace(/\s+/g, '');
+        var strfixed2 = document.getElementById(count + 'input' + answerCountNumber).name.replace(/\s+/g, '');
+
+        if (strfixed1.toUpperCase() === strfixed2.toUpperCase()) {
+
+            currentNumberCorrect = currentNumberCorrect + 1;
+
+            if (revealAllAnswers2 == false) {
+
+                document.getElementById("numberToGuessCorrectHeading" + count).innerHTML = '(' + currentNumberCorrect + '/' + document.getElementById("count" + count).innerHTML + ')';
+
+            }
+
+            document.getElementById(count + 'label' + answerCountNumber).innerHTML = '&#10003';
+            document.getElementById(id).style.display = "none";
+            totalNumberCorrect = totalNumberCorrect + 1;
+            updateResult(1);
+
+            document.getElementById(count + 'input' + answerCountNumber).disabled = true;
+            document.getElementById(count + 'input' + answerCountNumber).className += " bg-success";
+
+            if (currentNumberCorrect == document.getElementById("count" + count).innerHTML) {
+
+                clearInterval(timerInterval);
+                showCorrectButton.click();
+
+            }
+        } else {
+
+            document.getElementById(count + 'label' + answerCountNumber).innerHTML = '&#10007';
+            document.getElementById(id).style.display = "none";
+            totalNumberIncorrect = totalNumberIncorrect + 1;
+            updateResult(-1);
+
+            document.getElementById(count + 'input' + answerCountNumber).disabled = true;
+            document.getElementById(count + 'input' + answerCountNumber).className += " bg-danger";
+
+            if (revealAllAnswers2 == false) {
+
+                clearInterval(timerInterval);
+                showIncorrectButton.click();
+                revealAllAnswers2 = true;
+
+            }
+        }
+    }
+
+    function fixAnswerText(id) {
+
+        var res = id.split("answerCount");
+        var answerCountNumber = res[1];
+        var strfixed1 = document.getElementById(count + 'input' + answerCountNumber).value.replace(/\s+/g, '');
+        var strfixed2 = document.getElementById(count + 'input' + answerCountNumber).name.replace(/\s+/g, '');
+
+        if (strfixed1.toUpperCase() !== strfixed2.toUpperCase()) {
+
+            document.getElementById(count + 'input' + answerCountNumber).value = document.getElementById(count + 'input' + answerCountNumber).name;
+
+        }
+    }
+
+    function revealAllFillInTheBlankAnswers() {
+
+        if (revealAllAnswers3 == false) {
+
+            document.getElementById("skipQuestionButton").style.display = "none";
+            document.getElementById("playNextQuestionButton").style.display = "block";
+            document.getElementById("revealAnswersButton").style.display = "none";
+            document.getElementById(count + "checkAllFillInTheBlanksAnswers").style.display = "none";
+            document.getElementById(count + "checkAllFillInTheBlanksAnswers2").style.display = "none";
+            var answerButtonArray = document.getElementsByName(count + "checkAnswerButton");
+            var i;
+
+            // Count corret/incorrect/skipped
+            for (i = 0; i < answerButtonArray.length; i++) {
+
+                checkBlankBox(answerButtonArray[i].id);
+
+            }
+
+            // Post score
+            postTheScore();
+
+            // Change the value to correct one
+            for (i = 0; i < answerButtonArray.length; i++) {
+
+                fixAnswerText(answerButtonArray[i].id);
+
+            }
+
+            revealAllAnswers3 = true;
+
+        }
+    }
+
+    // Called when a letter is typed into fill-in-the-blanks/open-ended
+    function fillInBlanksUpdated(input) {
+
+        if(inputsActivated.indexOf(input) === -1) {
+
+            inputsActivated.push(input);
+
+        }
+    }
+
+    // Called when multiple choice button pressed
+    function chngebck(id, saveAnswer) {
+
+        var buttonPressed = document.getElementById(id);
+        var innerText = buttonPressed.innerText;
+
+        if (saveAnswer) {
+
+            answersGiven.push(innerText);
+
+        }
+
+        isAnswerCorrect = id.slice( - 1);
+        var str1 = "label";
+        var labelID = str1.concat(id);
+
+        if (isAnswerCorrect == '1') {
+
+            currentNumberCorrect = currentNumberCorrect + 1;
+
+            if (revealAllAnswers2 == false) {
+
+                document.getElementById("numberToGuessCorrectHeading" + count).innerHTML = '(' + currentNumberCorrect + '/' + document.getElementById("count" + count).innerHTML + ')';
+
+            }
+
+            buttonPressed.onclick = null;
+            buttonPressed.style.textShadow = null;
+            buttonPressed.style.color = "#fff";
+            buttonPressed.style.backgroundColor = "#5cb85c";
+
+
+                document.getElementById(labelID).innerHTML = '&#10003';
+
+                if (currentNumberCorrect == parseInt(document.getElementById("count" + count).innerHTML) && revealAllAnswers2 == false) {
+
+                    clearInterval(timerInterval);
+                    showCorrectButton.click();
+                    totalNumberCorrect = totalNumberCorrect + 1;
+                    updateResult(1);
+
+                }
+
+        } else {
+
+            buttonPressed.onclick = null;
+            buttonPressed.style.textShadow = null;
+            buttonPressed.style.color = "#fff";
+            buttonPressed.style.backgroundColor = "#d9534f";
+
+                            document.getElementById(labelID).innerHTML = '&#10007';
+
+                if (revealAllAnswers2 == false) {
+
+                    clearInterval(timerInterval);
+                    showIncorrectButton.click();
+                    totalNumberIncorrect = totalNumberIncorrect + 1;
+                    updateResult(-1);
+
+                }
+
+        }
+    }
+
+    function revealAllAnswers(){
+
+        document.getElementById("skipQuestionButton").style.display = "none";
+        document.getElementById("playNextQuestionButton").style.display = "block";
+        document.getElementById("revealAnswersButton").style.display = "none";
+
+        revealAllAnswers2 = true;
+
+        var answerButtonArray = document.getElementsByClassName("answerButton" + count);
+
+        Array.prototype.forEach.call(answerButtonArray, function (el) {
+
+            chngebck(el.id, false);
+
+        });
+    }
+
+    function revealAllFlashcardAnswers() {
+
+        document.getElementById("skipQuestionButton").style.display = "none";
+        document.getElementById("playNextQuestionButton").style.display = "block";
+        document.getElementById("revealAnswersButton").style.display = "none";
+
+        revealAllAnswers2 = true;
+
+        var answerButtonArray = document.getElementsByClassName("answerButton" + count);
+
+        Array.prototype.forEach.call(answerButtonArray, function (el) {
+
+            chngebck(el.id, false);
+
+        });
+    }
+
+    // Code for matching and ordering
+    function checkInCorrectOrder() {
+        var rows = document.getElementById("sortableMatchingTable" + count).rows;
+        $("#sortableMatchingTable" + count).sortable({
+            disabled: true
+        });
+        rowNumber = 0;
+        Array.prototype.forEach.call(rows, function (el) {
+            var answerTitleAndSequenceOrder = el.childNodes[1].id.split("SequenceOrder");
+            if (answerTitleAndSequenceOrder[1] == rowNumber) {
+                currentNumberCorrect = currentNumberCorrect + 1;
+                document.getElementById("numberToGuessCorrectHeading" + count).innerHTML = '(' + currentNumberCorrect + '/' + document.getElementById("count" + count).innerHTML + ')';
+                el.style.backgroundColor = "#5cb85c";
+            } else {
+                el.style.backgroundColor = "#d9534f";
+            }
+            rowNumber++;
+        });
+        if (currentNumberCorrect == parseInt(document.getElementById("count" + count).innerHTML) && revealAllAnswers2 == false) {
+            clearInterval(timerInterval);
+            showCorrectButton.click();
+            totalNumberCorrect = totalNumberCorrect + 1;
+            updateResult(1);
+            revealAllAnswers2 = true;
+        } else if (revealAllAnswers2 == false) {
+            clearInterval(timerInterval);
+            showIncorrectButton.click();
+            totalNumberIncorrect = totalNumberIncorrect + 1;
+            updateResult(-1);
+            revealAllAnswers2 = true;
+        }
+    }
+    function revealAllMatchingAnswers() {
+        document.getElementById("skipQuestionButton").style.display = "none";
+        document.getElementById("playNextQuestionButton").style.display = "block";
+        document.getElementById("revealAnswersButton").style.display = "none";
+        document.getElementById(count + "checkAllMatchingAnswers").style.display = "none";
+        document.getElementById(count + "checkAllMatchingAnswers2").style.display = "none";
+        checkInCorrectOrder();
+    }
+
+
+</script>
+<div class="container">
+    <br>
+    <div class="col-md-12 card" style="background-color: #ffffff; margin-bottom: 32px;">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8921524316804310"
+             data-ad-slot="6218012988" data-ad-format="auto"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12" style="padding-bottom: 64px;">
+            <div class="panel panel-default card">
+                <div class="panel-heading clearfix primary-background-color">
+                    <h1 style="overflow-wrap: break-word; color: #ffffff;">Animals</h1>
+                    <div class="btn pull-right">
+                        <div id="quizSlug" style="display: none">animals-9</div>
+                        <a href="/quizzes/animals-9" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Sortie</a>
+                        <a id="nextPage" href=""
+                           onclick="location.href = this.href + '&key=' + currentQuestionNumber + '&arrayLength=' + currentQuestionsArrayLength + '&noCor=' + totalNumberCorrect + '&noIncor=' + totalNumberIncorrect + '&noSkip=' + totalNumberSkipped + '&hId=' + highscoreId; return false;"
+                           class="btn btn-primary" style="display: none">
+                        </a>
+                    </div>
+                </div>
+                <div id="audioWrap"></div>
+                <div id="loadingQuestionsPanelBody" class="panel-body"
+                     style="display: none; padding: 2%;">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped"
+                             role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                             aria-valuemax="100" style="width: 70%">
+                        </div>
+                    </div>
+                </div>
+                <div id="answeringQuestionsPanelBody" class="panel-body" style="padding: 2%;">
+                    <div class="col-md-12">
+                        <div class="col-md-12" style="margin-bottom: 0px;">
+                            <h2 class="pull-left-sm" id="numberOfQuestionsHeading"
+                                style="padding-right: 16px;">Question 1 of 1</h2>
+                            <h2 class="pull-left-sm" style="color:red;">&nbsp;&nbsp;Temps Restant
+                                <span id="time"></span></h2>
+                            <br>
+                            <button type="button" class="btn btn-danger pull-right-sm"
+                                    id="skipQuestionButton"/>
+                            Passer La Question</button>
+                            <button type="button" class="btn btn-warning pull-right-sm"
+                                    id="revealAnswersButton"/>
+                            Révéler Des Réponses</button>
+                            <button style="display:none" type="button"
+                                    class="btn btn-success pull-right-sm"
+                                    id="playNextQuestionButton"/>
+                            Lire La Question Suivante</button>
+                        </div>
+                        <div class="col-md-12"
+                             style="margin-top: 0px; margin-bottom: 8px; padding-left: 0px; padding-right: 0px;">
+                            <div style="display:none">
+                                0
+                            </div>
+                            <div style="display:none">
+                                <div id="questionId0">575650</div>
+                                <div id="questionResult0">0</div>
+                                <div id="questionTime0">60</div>
+                                block
+                            </div>
+                            <div style="display:block;" id="questionNumber0" name="answerType_id0">
+                                <form method="POST" action="https://topgradeapp.com/questions"
+                                      accept-charset="UTF-8"><input name="_token" type="hidden"
+                                                                    value="D2pX5asGz2mPUtm6SBWPOX2Za1LpXEeYuxM7uZaX">
+                                    <div>
+                                        <h2 class="col-md-12"
+                                            style="margin-top: 0px; margin-bottom: 0px;">
+                                            <button type="button" id="speakQuestionButton1"
+                                                    onclick="speakQuestion(this, 'Parmi%20ces%20animaux%2C%20lesquels%20sont%20des%20reptile%3F', 'question575650', '575650')"
+                                                    class="btn btn-success pull-right">
+                                                <i class='glyphicon glyphicon-volume-up'>
+
+                                                </i>
+                                            </button>
+                                        </h2>
+                                        <div class="clearfix">
+
+                                        </div>
+                                        <h2 class="play-font"
+                                            style="white-space: pre-line; margin-top: 0px; margin-bottom: 0px;"
+                                            id="question575650">Parmi ces animaux, lesquels sont des
+                                            reptile?</h2>
+                                        <h3>Sélectionnez les réponses correctes&nbsp;&nbsp; </h3>
+                                        <h3 class="pull-left-sm" id="numberToGuessCorrectHeading1">
+                                            (0/0)</h3>
+                                        <div class="clearfix"></div>
+                                        <br>
+                                        <div class="col-md-12" style="display: none;"
+                                             id="explanation1">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr>
+                                        </div>
+                                        <div hidden="true">0</div>
+                                        <div class="col-md-12" style="padding-bottom: 32px;">
+                                            <div class="col-md-12" style="padding: 0px;">
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">0
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=11Lion0
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton1">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477133">Lion</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label11Lion0></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Lion', 'answer2477133', true, '2477133')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">1
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=12Oiseau0
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton1">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477132">Oiseau</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label12Oiseau0></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Oiseau', 'answer2477132', true, '2477132')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="padding: 0px;">
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">2
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div style="display: none;" hidden="TRUE">1
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=13Lezard1
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton1">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477130">Lezard</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label13Lezard1></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Lezard', 'answer2477130', true, '2477130')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">3
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div style="display: none;" hidden="TRUE">2
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=14Crocodile1
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton1">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477131">Crocodile</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label14Crocodile1></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Crocodile', 'answer2477131', true, '2477131')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="padding: 0px;"></div>
+                                        </div>
+                                        <div hidden="TRUE" id=count1>2</div>
+                                    </div>
+                                    <br>
+                                </form>
+                            </div>
+                            <div style="display:none">
+                                <div id="questionId1">575651</div>
+                                <div id="questionResult1">0</div>
+                                <div id="questionTime1">60</div>
+                                none
+                            </div>
+                            <div style="display:none;" id="questionNumber1" name="answerType_id0">
+                                <form method="POST" action="https://topgradeapp.com/questions"
+                                      accept-charset="UTF-8"><input name="_token" type="hidden"
+                                                                    value="D2pX5asGz2mPUtm6SBWPOX2Za1LpXEeYuxM7uZaX">
+                                    <div>
+                                        <h2 class="col-md-12"
+                                            style="margin-top: 0px; margin-bottom: 0px;">
+                                            <button type="button" id="speakQuestionButton2"
+                                                    onclick="speakQuestion(this, 'Parmi%20les%20animaux%20suivant%2C%20lesquels%20sont%20des%20oiseaux%3F', 'question575651', '575651')"
+                                                    class="btn btn-success pull-right"><i
+                                                    class='glyphicon glyphicon-volume-up'></i>
+                                            </button>
+                                        </h2>
+                                        <div class="clearfix"></div>
+                                        <h2 class="play-font"
+                                            style="white-space: pre-line; margin-top: 0px; margin-bottom: 0px;"
+                                            id="question575651">Parmi les animaux suivant, lesquels
+                                            sont des oiseaux?</h2>
+                                        <h3>Sélectionnez les réponses correctes&nbsp;&nbsp; </h3>
+                                        <h3 class="pull-left-sm" id="numberToGuessCorrectHeading2">
+                                            (0/0)</h3>
+                                        <div class="clearfix"></div>
+                                        <br>
+                                        <div class="col-md-12" style="display: none;"
+                                             id="explanation2"></div>
+                                        <div class="col-md-12">
+                                            <hr>
+                                        </div>
+                                        <div hidden="true">0</div>
+                                        <div class="col-md-12" style="padding-bottom: 32px;">
+                                            <div class="col-md-12" style="padding: 0px;">
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">
+                                                        0
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=21Le_poisson_ton0
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton2">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477135">Le poisson ton</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left">
+                                                            <label id=label21Le_poisson_ton0></label>
+                                                        </div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Le%20poisson%20ton', 'answer2477135', true, '2477135')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">
+                                                        1
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div style="display: none;" hidden="TRUE">
+                                                        1
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=22La_poule1
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton2">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477134">La poule</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label22La_poule1></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'La%20poule', 'answer2477134', true, '2477134')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="padding: 0px;">
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">2
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=23Le_chat0
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton2">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477136">Le chat</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label23Le_chat0></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Le%20chat', 'answer2477136', true, '2477136')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                                <div class="col-md-6" style="padding-bottom: 8px;">
+                                                    <div style="display: none;" hidden="true">3
+                                                    </div>
+                                                    <div class="col-md-2"></div>
+                                                    <div class="col-md-8">
+                                                        <button style="width: 100%; font-size: 16px; margin-bottom:4px;white-space: normal;"
+                                                                type="button" id=24Le_chien0
+                                                                onclick="chngebck(this.id, true)"
+                                                                value="Button1"
+                                                                class="btn btn-default answerButton2">
+                                                            <p class="play-font"
+                                                               style="margin-bottom: 0px; text-shadow: none;"
+                                                               id="answer2477137">Le chien</p>
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="pull-left"><label
+                                                                id=label24Le_chien0></label></div>
+                                                        <div class="pull-left">
+                                                            <button type="button"
+                                                                    onclick="speakAnswer(this, 'Le%20chien', 'answer2477137', true, '2477137')"
+                                                                    class="btn btn-success pull-right">
+                                                                <i class='glyphicon glyphicon-volume-up'></i>
+                                                            </button>
+                                                        </div>
+                                                        <br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="padding: 0px;"></div>
+                                        </div>
+                                        <div hidden="TRUE" id=count2>1</div>
+                                    </div>
+                                    <br></form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="resultsPanelBody" style="display: none; padding: 5%;"
+                     class="panel-body text-center">
+                    <div>
+                        <h1 class="text-center">Résultats</h1>
+                        <hr>
+                        <div class="col-md-8 col-md-offset-2" style="color: green">
+                            <h2>Correct </h2>
+                            <h2 id="numberCorrectText">0</h2>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2" style="color: red">
+                            <h2>Incorrect </h2>
+                            <h2 id="numberIncorrectText">0</h2>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2" style="color: slategray">
+                            <h2>Sauté </h2>
+                            <h2 id="numberSkippedText">0</h2>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <hr>
+                            <h2>Pourcentage Global </h2>
+                            <h2 id="overallPercentageText">0%</h2>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <hr>
+                        </div>
+                        <div id="scoreReturnText" class="col-md-8 col-md-offset-2">
+                            <p>Économie quiz</p>
+                        </div>
+                        <div id="saveScoreButton" style="display: none"
+                             class="col-md-4 col-md-offset-4">
+                            <div class="center-block btn btn-success btn-lg"
+                                 style="min-width: 200px; vertical-align: middle; font-size: 14px; padding: 16px 32px; margin: 8px;"
+                                 type='button' data-backdrop="static" data-keyboard="false"
+                                 data-toggle="modal" data-target="#registerLoginModal"
+                                 data-title="Enregistrer Le Score">
+                                Enregistrer Le Score
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <hr>
+                            <h2>Taux Quiz</h2>
+                            <input id="star-input-id" type="number" class="rating" value=0 min=0
+                                   max=5 step=1 data-size="sm">
+                            <div id="ratingReturnText" class="col-md-8 col-md-offset-2"></div>
+                        </div>
+                        <div id="saveRatingButton" style="display: none"
+                             class="col-md-4 col-md-offset-4">
+                            <div class="center-block btn btn-success btn-lg"
+                                 style="min-width: 200px; vertical-align: middle; font-size: 14px; padding: 16px 32px; margin: 8px;"
+                                 type='button' data-backdrop="static" data-keyboard="false"
+                                 data-toggle="modal" data-target="#registerLoginModal"
+                                 data-title="Enregistrer Le Score">
+                                Enregistrer Le Classement
+                            </div>
+                        </div>
+                        <div class="text-center col-md-4 col-md-offset-4">
+                            <hr>
+                            <br>
+                            <button class="btn btn-success btn-block center-block "
+                                    style="min-width: 200px; vertical-align: middle; font-size: 14px; padding: 16px 32px; margin: 8px;"
+                                    data-toggle="modal" data-target="#shareModal">
+                                <i class='glyphicon glyphicon-share'></i>&nbsp;Partager Quiz
+                            </button>
+                            <a href="/quizzes/animals-9"
+                               style="min-width: 200px; vertical-align: middle; font-size: 14px; padding: 16px 32px; margin: 8px;"
+                               class="center-block btn btn-success btn-block btn-lg" role="button">Terminer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="correctButton" type='button' data-backdrop="static" data-keyboard="false"
+     data-toggle="modal" data-target="#questionFinished" data-title="Réponse Correcte"
+     data-message="Vous avez répondu correctement."></div>
+<div id="incorrectButton" type='button' data-backdrop="static" data-keyboard="false"
+     data-toggle="modal" data-target="#questionFinished4" data-title="Réponse Incorrecte"
+     data-message="Vous avez mal répondu."></div>
+<div id="outOfTimeButton" type='button' data-backdrop="static" data-keyboard="false"
+     data-toggle="modal" data-target="#questionFinishedOutOfTime" data-title="Hors du temps"
+     data-message="Vous avez manqué de temps."></div>
+<div style="z-index:10000; height: 100vh !important;" class="modal" id="questionFinished"
+     role="dialog" aria-labelledby="confirmQuestionFinishedLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header"><h3 class="modal-title text-center">Bonne Réponse</h3>
+                </div>
+                <div class="modal-body text-center"><p>Vous avez répondu correctement.</p></div>
+                <div class="modal-footer">
+                    <button type="button" id="modalViewAnswers" class="btn btn-primary btn-block"
+                            data-dismiss="modal">Examiner Les Réponses
+                    </button>
+                    <button type="button" id="modalNextQuestion" class="btn btn-success btn-block"
+                            data-dismiss="modal">Question Suivante
+                    </button>
+                    <div style="visibility: hidden;" class="dusky"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="z-index:10000; height: 100vh !important;" class="modal" id="questionFinished4"
+     role="dialog" aria-labelledby="confirmQuestionFinishedLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header"><h3 class="modal-title text-center">Réponse
+                    Incorrecte</h3></div>
+                <div class="modal-body text-center"><p>Vous avez mal répondu.</p></div>
+                <div class="modal-footer">
+                    <button type="button" id="modalViewAnswers4" class="btn btn-primary btn-block"
+                            data-dismiss="modal">Examiner Les Réponses
+                    </button>
+                    <button type="button" id="modalNextQuestion4" class="btn btn-success btn-block"
+                            data-dismiss="modal">Question Suivante
+                    </button>
+                    <div style="visibility: hidden;" class="dusky"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="z-index:10000; height: 100vh !important;" class="modal" id="questionFinishedOutOfTime"
+     role="dialog" aria-labelledby="confirmQuestionFinishedLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header"><h3 class="modal-title text-center">Hors Du Temps</h3>
+                </div>
+                <div class="modal-body text-center"><p>Vous avez manqué de temps.</p></div>
+                <div class="modal-footer">
+                    <button type="button" id="modalViewAnswersOutOfTime"
+                            class="btn btn-primary btn-block" data-dismiss="modal">Examiner Les
+                        Réponses
+                    </button>
+                    <button type="button" id="modalNextQuestionOutOfTime"
+                            class="btn btn-success btn-block" data-dismiss="modal">Question Suivante
+                    </button>
+                    <div style="visibility: hidden;" class="dusky"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="registerLoginModal" role="dialog"
+     aria-labelledby="registerLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Sauvegarder</h3></div>
+            <h4 class="modal-body"><p class="text-center">Pour enregistrer des scores ou des
+                évaluations, vous devez vous identifier ou vous enregistrer.</p></h4>
+            <div class="modal-footer">
+                <div class="col-md-6"><a id="loginLink" class="btn btn-success btn-block"
+                                         href="/auth/login?">Se Connecter</a></div>
+                <div class="col-md-6"><a id="registerLink" class="btn btn-success btn-block"
+                                         href="/auth/register?">Registre</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<link href="/css/jQuery.AudioPlayer.min.css" rel="stylesheet">
+<script src="/js/jQuery.AudioPlayer.min.js" type="text/javascript"></script>
+<div class="modal fade" id="audioLanguageSettingsModal" role="dialog"
+     aria-labelledby="Audio Language Settings Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Les Paramètres Audio</h3>
+            </div>
+            <div class="modal-body"
+                 style="padding-left: 64px; padding-right: 64px; padding-bottom: 32px;">
+                <h3 style="margin-top: 0px;"><i style="color: darkslategray; font-size: 20px;"
+                                                class='glyphicon glyphicon-globe'></i>&nbsp;La
+                    Langue</h3>
+                <p>Définissez la langue audio correcte pour votre texte.</p>
+                <div style="margin-left: 16px; margin-bottom: 16px;">
+                    <label class="radio"><input id="Danish" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Danish">Danois</label>
+                    <label class="radio"><input id="Dutch" onchange="changeLanguage(this)"
+                                                type="radio" name="voice" value="Dutch">Néerlandais</label>
+                    <label class="radio"><input id="English" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="English">Anglais</label>
+                    <label class="radio"><input id="French" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="French">Français</label>
+                    <label class="radio"><input id="German" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="German">Allemand</label>
+                    <label class="radio"><input id="Icelandic" onchange="changeLanguage(this)"
+                                                type="radio" name="voice" value="Icelandic">Islandais</label>
+                    <label class="radio"><input id="Italian" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Italian">Italien</label>
+                    <label class="radio"><input id="Japanese" onchange="changeLanguage(this)"
+                                                type="radio" name="voice" value="Japanese">Japonais</label>
+                    <label class="radio"><input id="Korean" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Korean">Coréen</label>
+                    <label class="radio"><input id="Norwegian" onchange="changeLanguage(this)"
+                                                type="radio" name="voice" value="Norwegian">Norvégien</label>
+                    <label class="radio"><input id="Polish" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Polish">Polonais</label>
+                    <label class="radio"><input id="Portuguese" onchange="changeLanguage(this)"
+                                                type="radio" name="voice" value="Portuguese">Portugais</label>
+                    <label class="radio"><input id="Romanian" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Romanian">Roumain</label>
+                    <label class="radio"><input id="Russian" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Russian">Russe</label>
+                    <label class="radio"><input id="Spanish" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Spanish">Espanol</label>
+                    <label class="radio"><input id="Swedish" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Swedish">Suédois</label>
+                    <label class="radio"><input id="Turkish" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Turkish">Turc</label>
+                    <label class="radio"><input id="Welsh" onchange="changeLanguage(this)"
+                                                type="radio" name="voice"
+                                                value="Welsh">Gallois</label>
+                </div>
+                <h3><i style="color: darkslategray; font-size: 20px;"
+                       class='glyphicon glyphicon-adjust'></i>&nbsp; Mise En Évidence</h3>
+                <p>Improve your learning by highlighting words as they are spoken.</p>
+                <label class="checkbox-inline"><input id="topgrade_highlight" data-width=200
+                                                      onchange="changeHighlight(this)"
+                                                      type="checkbox" data-toggle="toggle"
+                                                      data-on="Enabled" data-off="Disabled" checked>
+                    Mise En Surbrillance Mot À Mot</label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="languageSavePressed()"
+                        class="btn btn-success btn-block">Sauvegarder
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var currentLanguage = 'English';
+    var highlight = '1';
+    var shouldHighlight = highlight;
+    var radioString = "#"+currentLanguage;
+
+    $(radioString).prop("checked", true);
+
+    function changeLanguage(radio) {
+        currentLanguage = radio.value;
+    }
+
+    function changeHighlight(checkbox) {
+        highlight = checkbox.checked;
+    }
+
+    function languageSavePressed() {
+        $('#audioLanguageSettingsModal').modal('hide');
+
+
+                        }
+
+
+</script>
+<div class="modal fade" id="loginAudioPromptModal" role="dialog"
+     aria-labelledby="Login Audio Prompt Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Écouter De L'Audio</h3></div>
+            <div class="modal-body text-center"><p>Vous pouvez jouer à des quiz, des cours et des
+                cartes mémoire sans avoir à vous connecter. Cependant, pour enregistrer des
+                partitions et créer des quiz, des cours et des cartes mémoire, vous devez être
+                connecté. Pour lire du contenu audio, vous devez être connecté à un compte
+                professionnel.</p></div>
+            <div class="modal-footer"><a href="/auth/register" type="button"
+                                         class="btn btn-success btn-block">Registre</a> <a
+                    href="/auth/login" type="button"
+                    class="btn btn-success btn-block">S'Identifier</a></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="upgradeAudioPromptModal" role="dialog"
+     aria-labelledby="Upgrade Audio Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Écouter De L'Audio</h3>
+            </div>
+            <div class="modal-body text-center">
+                <p>Prenez votre apprentissage au prochain niveau. Passez à un compte professionnel
+                    pour écouter vos questions et profiter de nombreux autres avantages.</p>
+                <br>
+                <p>Le son est généré pour toute question ou réponse que vous créez.</p>
+                <p>Beaucoup de gens apprennent mieux quand ils écoutent ce qu'ils apprennent. Pour
+                    apprendre une langue étrangère, nous avons pris en charge plus de 18 langues
+                    différentes.</p>
+                <br>
+                <div class="col-md-12" style="margin-bottom: 16px;">
+                    <button type="button" onclick="speakSample(this, 'en-GB')"
+                            class="btn btn-primary btn">Anglais &nbsp; <i
+                            class='glyphicon glyphicon-volume-up'></i></button>
+                    <button type="button" onclick="speakSample(this, 'es-ES')"
+                            class="btn btn-primary btn">Espanol &nbsp; <i
+                            class='glyphicon glyphicon-volume-up'></i></button>
+                    <button type="button" onclick="speakSample(this, 'ja-JP')"
+                            class="btn btn-primary btn">Japonais &nbsp; <i
+                            class='glyphicon glyphicon-volume-up'></i></button>
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <div id="audioSampleWrap"></div>
+                    <br>
+                </div>
+                <p>Les langues prises en charge sont les suivantes: danois, néerlandais, anglais,
+                    français, allemand, islandais, italien, japonais, coréen, norvégien, polonais,
+                    portugais, roumain, russe, espagnol, suédois, turc et gallois.<br><br>
+                    Nous soutenons également la mise en évidence automatique mot par mot lorsque les
+                    mots sont lus à voix haute.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="/userProfile" type="button" class="btn btn-success btn-block">En Savoir
+                    Plus</a>
+                <button type="button" class="btn btn-default btn-block" data-dismiss="modal">
+                    Annuler
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var mPlayer = $.AudioPlayer;
+    mPlayer.init({ container: '#audioSampleWrap', source:'/sample_audio/upgrade_sample_audio.mp3', imagePath: '/image', debuggers: false, allowSeek: true});
+    function speakSample(button, langCode) {
+        if (langCode == 'en-GB') {
+            mPlayer.updateSource({source: "/sample_audio/upgrade_sample_audio.mp3"});
+        } else if (langCode == 'es-ES') {
+            mPlayer.updateSource({source: "/sample_audio/sample_audio_spanish.mp3"});
+        } else if (langCode == 'ja-JP') {
+            mPlayer.updateSource({source: "/sample_audio/sample_audio_japanese.mp3"});
+        }
+        mPlayer.play();
+    }
+
+
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="modal fade" id="shareModal" role="dialog" aria-labelledby="confirmDeleteLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Partager La Ressource</h3>
+            </div>
+            <div class="modal-footer">
+                <div style="padding-left: 16px; padding-right: 16px;" id="chooseShareOption">
+                    <div class="text-center">
+                        <h4>Partager Par Lien</h4>
+                        <button id="linkButton" type="button" class="btn btn-primary btn-block"><i
+                                class='glyphicon glyphicon-link'></i>&nbsp; Voir lien
+                        </button>
+                        <br>
+                        <h4>Intégrer Au Site Web</h4>
+                        <button id="embedButton" type="button" class="btn btn-primary btn-block"><i
+                                class='glyphicon glyphicon-modal-window'></i>&nbsp; Voir le code
+                        </button>
+                        <br>
+                        <h4>Partager Socialement</h4>
+                        <button id="facebookButton" type="button" class="btn btn-link"><img
+                                height="34" width="34" src="/img/facebook_logo_144.png"></button>
+                        <button class="btn btn-link" style="margin-top: 5px;">
+                            <div class="g-sharetoclassroom" data-size="34"
+                                 data-url="https://TopgradeApp.com/playQuiz/animals-9"
+                                 id="googleClassroomButton" type="button"
+                                 class="btn btn-primary btn-block"> Partager sur Google Classroom
+                                &nbsp;<i class='glyphicon glyphicon-user'></i></div>
+                        </button>
+                        <button type="button" class="btn btn-link"
+                                onClick="window.open('https://api.whatsapp.com/send?text=https://TopgradeApp.com/playQuiz/animals-9');">
+                            <img height="34" width="34" src="/img/whatsapp_114_logo.png"></button>
+                    </div>
+                    <br>
+                </div>
+
+                <div id="emailOption" style="display: none">
+                    <form method="POST" action="https://topgradeapp.com/fr/quizzes/animals-9/email"
+                          accept-charset="UTF-8" class="form"><input name="_token" type="hidden"
+                                                                     value="D2pX5asGz2mPUtm6SBWPOX2Za1LpXEeYuxM7uZaX">
+                        <div class="form-group text-left">
+                            <label for="linkToShare">Link to share</label>
+                            <input required disabled class="form-control"
+                                   placeholder="For example: example@example.com" name="linkToShare"
+                                   type="text" value="https://TopgradeApp.com/playQuiz/animals-9"
+                                   id="linkToShare">
+                            <div style="display: none"><input required class="form-control"
+                                                              placeholder="For example: example@example.com"
+                                                              name="linkToShare" type="text"
+                                                              value="https://TopgradeApp.com/playQuiz/animals-9"
+                                                              id="linkToShare"></div>
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="sendTo">Send this link to (one address per send)</label>
+                            <input required class="form-control"
+                                   placeholder="For example: example@example.com" name="sendTo"
+                                   type="email" id="sendTo">
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="messageBody">Message Body</label>
+                            <textarea required class="form-control"
+                                      placeholder="For example: example@example.com"
+                                      name="messageBody" cols="50" rows="10" id="messageBody">Hi, I have just made this great resource on TopgradeApp.com and thought you might like to try it out.</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block" id="shareEmail">
+                            Send &nbsp;<i class='glyphicon glyphicon-send'></i></button>
+                    </form>
+                    <br>
+                    <button type="button" class="btn btn-primary" id="moreOptionsEmail"> Other share
+                        options &nbsp;<i class='glyphicon glyphicon-menu-hamburger'></i></button>
+                </div>
+
+                <div class="col-md-12" id="linkOption" style="display: none">
+                    <h3 class="text-left">Partager Par Lien</h3>
+                    <br>
+                    <h4 class="text-left">Envoyez ce lien à quiconque souhaite utiliser votre
+                        ressource.</h4>
+                    <h4 class="text-center" id="linkToShareValue" style="color: royalblue">
+                        https://TopgradeApp.com/playQuiz/animals-9</h4>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-primary" id="moreOptionsLink"> Autres
+                        options sur actions &nbsp;<i class='glyphicon glyphicon-menu-hamburger'></i>
+                    </button>
+                </div>
+                <div class="col-md-12" id="embedOption" style="display: none;">
+                    <h3 class="text-left">Intégrer Au Site Web</h3>
+                    <h4 class="text-left">Si votre site Web autorise iFrames, ajoutez le code
+                        ci-dessous à l'une des pages de votre site Web pour y intégrer directement
+                        votre ressource. Vous pouvez utiliser CSS pour définir les propriétés de
+                        largeur et de hauteur de l'iFrame en fonction de votre page.</h4>
+                    <div class="col-md-12">
+                        <hr>
+                        <textarea disabled="true" class="form-control"
+                                  style="resize: none; cursor: default; min-width: 100%; border: none;background-color:lightsteelblue;"><iframe
+                                style="width: 100%; height: 1300px;"
+                                src="https://TopgradeApp.com/embed/playQuiz/animals-9"></iframe></textarea>
+                        <hr>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                    <button type="button" class="btn btn-primary" id="moreOptionsEmbed"> Autres
+                        options sur actions &nbsp;<i class='glyphicon glyphicon-menu-hamburger'></i>
+                    </button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script language="javascript">
+    function userClickedEmailOption()
+    {
+        document.getElementById("chooseShareOption").style.display = "none";
+        document.getElementById("emailOption").style.display = "block";
+    }
+    function userClickedLinkOption()
+    {
+        document.getElementById("chooseShareOption").style.display = "none";
+        document.getElementById("linkOption").style.display = "block";
+    }
+    function userClickedEmbedOption()
+    {
+        document.getElementById("chooseShareOption").style.display = "none";
+        document.getElementById("embedOption").style.display = "block";
+    }
+    function userClickedFacebookOption()
+    {
+        var text = document.getElementById("linkToShareValue").innerHTML;
+
+        var quizTitle = "Quiz partagé.";
+        var titleElement = document.getElementById("mainQuizTitle");
+
+        if (titleElement != null) {
+
+            quizTitle = titleElement.innerHTML;
+
+        }
+
+        FB.ui({
+            method: 'feed',
+            name: "Topgrade",
+            link: text,
+            caption: "Cliquez ici pour jouer au quiz.",
+
+                picture: 'https://TopgradeApp.com/mainIconDesigner.png',
+                        description: quizTitle
+        }, function(response) {
+            if(response && response.post_id){}
+            else{}
+        });
+    }
+    function userClickedMoreOptions() {
+        document.getElementById("chooseShareOption").style.display = "block";
+        document.getElementById("emailOption").style.display = "none";
+        document.getElementById("linkOption").style.display = "none";
+        document.getElementById("embedOption").style.display = "none";
+    }
+    if (true == false) {
+        document.getElementById("emailButton").addEventListener("click", userClickedEmailOption);
+    }
+    document.getElementById("linkButton").addEventListener("click", userClickedLinkOption);
+    document.getElementById("embedButton").addEventListener("click", userClickedEmbedOption);
+    document.getElementById("facebookButton").addEventListener("click", userClickedFacebookOption);
+
+    document.getElementById("moreOptionsEmbed").addEventListener("click", userClickedMoreOptions);
+    document.getElementById("moreOptionsEmail").addEventListener("click", userClickedMoreOptions);
+    document.getElementById("moreOptionsLink").addEventListener("click", userClickedMoreOptions);
+
+
+</script>
+<script>
+    function nextSurveyQuestion() {
+        userPressedSkip();
+    }
+    var currentTimeWordArray = null;
+    var playing = false;
+    var currentTextViewId = '';
+    var originalText = '';
+    var currentWordValue = null;
+    var invertedHighlight = false;
+    function playCallback() {
+        if (currentTimeWordArray != null) {
+            playing = true;
+            setTimeout(checkForWordToHighlight, 10);
+        }
+    }
+    function endedCallback() {
+        resetTtsView();
+    }
+    function highlightFunction(start, end, inputText) {
+        var highlightClass = 'highlight';
+        if (invertedHighlight) {
+            highlightClass = 'highlight-inverted';
+        }
+        inputText = document.getElementById(currentTextViewId);
+
+        if (inputText != null) {
+
+            var innerHTML = originalText;
+            innerHTML = innerHTML.substring(0,start) + "<span class='"+ highlightClass +"'>" + innerHTML.substring(start,end) + "</span>" + innerHTML.substring(end);
+            inputText.innerHTML = innerHTML;
+
+        }
+    }
+
+    function resetTtsView() {
+
+        if (currentTextViewId != null && currentTextViewId != '') {
+
+            inputText = document.getElementById(currentTextViewId);
+            var innerHTML = originalText;
+            inputText.innerHTML = innerHTML;
+
+        }
+
+        currentTimeWordArray = null;
+        playing = false;
+        currentTextViewId = '';
+        originalText = '';
+        currentWordValue = null;
+        invertedHighlight = false;
+
+    }
+
+    function checkForWordToHighlight () {
+
+        if (currentTimeWordArray == null ) {
+
+            return;
+
+        }
+
+        var currentTime = $.AudioPlayer.elements.audioDom.currentTime * 1000;
+        var keys = Object.keys(currentTimeWordArray);
+
+        var arrayLength = keys.length;
+        for (var i = 0; i < arrayLength; i++) {
+
+            var timeWordStarts = keys[i];
+            var shouldHighlight = currentTimeWordArray[keys[i]];
+            var timeNextWordStarts = 0;
+
+            if (i + 1 < arrayLength) {
+
+                var timeNextWordStarts = keys[i + 1];
+
+            }
+
+            if (currentTime > timeWordStarts && (currentTime < timeNextWordStarts || timeNextWordStarts == 0)) {
+
+                if (shouldHighlight != currentWordValue) {
+
+                    currentWordValue = shouldHighlight;
+                    var start = currentWordValue["start"];
+                    var end = currentWordValue["end"];
+
+                    if (start != null && end != null && currentTextViewId != null) {
+
+                        highlightFunction(start, end, currentTextViewId);
+
+                    }
+                }
+
+                break;
+
+            }
+        }
+
+        if (playing) {
+
+            setTimeout(checkForWordToHighlight, 10);
+
+        }
+    }
+
+
+    function showLoginAudioPrompt() {
+
+        $('#loginAudioPromptModal').modal('show');
+
+    }
+
+    function showUpgradeAudioPrompt() {
+
+        $('#upgradeAudioPromptModal').modal('show');
+
+    }
+
+    function jsonToTimeWordArray(json) {
+
+        currentTimeWordArray = null;
+
+        if (json != null && json != '') {
+
+            currentTimeWordArray = [];
+
+            var arrayOfTimeWordPairs = json.split("\n");
+
+            var arrayLength = arrayOfTimeWordPairs.length;
+            for (var i = 0; i < arrayLength; i++) {
+
+                var subject = arrayOfTimeWordPairs[i];
+
+                if (subject != null && subject != '') {
+
+                    var jsonObject = JSON.parse(subject);
+                    var time = jsonObject["time"];
+                    currentTimeWordArray[time] = jsonObject;
+
+                }
+            }
+        }
+    }
+
+    function speakQuestion(button, question, textViewId, questionId) {
+
+
+
+                showUpgradeAudioPrompt()
+
+
+            }
+
+    function speakAnswer(button, answer, textViewId, invert, answerId) {
+
+
+
+                showUpgradeAudioPrompt()
+
+
+            }
+
+    $('#star-input-id').on('rating.change', function(event, value, caption) {
+
+        $.ajaxSetup({ headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') } });
+        var quizSlug = document.getElementById("quizSlug").innerHTML;
+        var dataToPost = {ratingValue:value, quizSlug:quizSlug};
+
+        $.post('/ajax/post/rating', {payload:dataToPost}, onSuccess);
+        function onSuccess(data, status, xhr) {
+
+            if (data == 'success') {
+
+                document.getElementById("ratingReturnText").innerHTML = "Note sauvegardée"
+
+            } else {
+
+                document.getElementById("ratingReturnText").innerHTML = "Évaluation non enregistrée. Veuillez vous connecter ou créer un compte pour enregistrer vos évaluations.";
+                document.getElementById("loginLink").href = "/auth/login?q="+quizSlug+"&c="+totalNumberCorrect+"&i="+totalNumberIncorrect+"&s="+totalNumberSkipped+"&r="+value;
+                document.getElementById("registerLink").href = "/auth/register?q="+quizSlug+"&c="+totalNumberCorrect+"&i="+totalNumberIncorrect+"&s="+totalNumberSkipped+"&r="+value;
+                document.getElementById("saveRatingButton").style.display = "block";
+
+            }
+        }
+    });
+
+    var showCorrectButton = document.getElementById("correctButton");
+    var showIncorrectButton = document.getElementById("incorrectButton");
+    var showDeleteButton = document.getElementById("deleteButton");
+    var outOfTimeButton = document.getElementById("outOfTimeButton");
+    var revealAllAnswers2 = false;
+    var revealAllAnswers3 = false;
+    var currentNumberCorrect = 0;
+    var modifiedCount = 0;
+
+    function userPressedSkip() {
+
+        clearInterval(timerInterval);
+        skipTheQuestion();
+        loadUpTheNextAnswer();
+
+    }
+
+    var recognition = null;
+
+    function stopSpeechRecognition(count) {
+
+        try {
+            if (recognition != null) {
+
+                recognition.stop();
+
+            }
+        } catch(e) {}
+
+        resetSpeechRecognitionUI(count);
+
+    }
+
+    function resetSpeechRecognitionUI(count) {
+
+        var errorView = document.getElementById('speechRecognitionError'.concat(count));
+        var monitorView = document.getElementById('speechRecognitionMonitor'.concat(count));
+        var answerView = document.getElementById('speechRecognitionAnswers'.concat(count));
+        var startButton = document.getElementById('speechRecognitionStartBtn'.concat(count));
+
+        monitorView.style.display = "none";
+        errorView.style.display = "none";
+        startButton.style.display = "block";
+
+    }
+
+    function beginSpeechRecognition(count, correctAnswer, lang) {
+
+        correctAnswer = decodeURIComponent(correctAnswer);
+
+        var correctAnswerFound = false;
+        var finalCorrectAnswer = correctAnswer.toLowerCase().replace(/[.?,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g,"").replace(/\s/g,'');
+        var errorView = document.getElementById('speechRecognitionError'.concat(count));
+        var monitorView = document.getElementById('speechRecognitionMonitor'.concat(count));
+        var answerView = document.getElementById('speechRecognitionAnswers'.concat(count));
+        var startButton = document.getElementById('speechRecognitionStartBtn'.concat(count));
+        var resultTextView = document.getElementById('speechRecognitionResultTextView'.concat(count));
+
+        monitorView.style.display = "block";
+        startButton.style.display = "none";
+
+        try {
+
+            recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
+
+            if (lang != null && lang != '') {
+
+                recognition.lang = lang;
+
+            } else {
+
+                recognition.lang = 'en-US';
+
+            }
+
+            recognition.interimResults = true;
+            recognition.maxAlternatives = 1;
+            recognition.start();
+
+            recognition.onaudioend = function() {
+
+                if (!correctAnswerFound) {
+
+                    resultTextView.innerHTML = "Nous n'avons pas entendu la bonne réponse, soit votre prononciation est fausse, soit il y a un problème avec votre microphone.";
+
+                }
+
+                resetSpeechRecognitionUI(count);
+
+            }
+
+            recognition.onerror = function() {
+
+                monitorView.style.display = "none";
+                errorView.style.display = "block";
+
+                if (event.error != null && event.error == "not-allowed") {
+
+                    errorView.innerHTML = "<h4>Unable To Recognise Speech</h4><p>It looks like you haven't given this website permission to use your microphone.</p>";
+
+                } else if (event.error != null && event.error == "language-not-supported") {
+
+                    errorView.innerHTML = "<h4>Unable To Recognise Speech</h4><p>It looks like your browser doesn't support speech recognition in this language.</p>";
+
+                } else if (event.error != null && event.error == "no-speech") {
+
+                    errorView.innerHTML = "<h4>Unable To Recognise Speech</h4><p>It looks like we weren't able to detect any speech from your microphone.</p>";
+
+                } else {
+
+                    errorView.innerHTML = "<h4>Unable To Recognise Speech</h4><p>It looks like your browser doesn't support speech recognition. Please use a modern browser like <a href='https://www.google.com/chrome/' target='_blank'>Google Chrome</a> to use this feature.</p>";
+
+                }
+            }
+
+            recognition.onresult = function(event) {
+
+                var topResult = event.results[0][0].transcript;
+
+                answerView.innerHTML = topResult;
+
+                var finalTopResult = topResult.toLowerCase().replace(/[.?,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g,"").replace(/\s/g,'');
+
+                if (finalTopResult.indexOf(finalCorrectAnswer) != -1) {
+
+                    if (!correctAnswerFound) {
+
+                        correctAnswerFound = true;
+
+                        stopSpeechRecognition(count);
+
+                        totalNumberCorrect = totalNumberCorrect + 1;
+                        clearInterval(timerInterval);
+                        showCorrectButton.click();
+
+                        resultTextView.innerHTML = "Nous aurons fini, vous devenez bon à ça.";
+
+                    }
+                }
+            };
+        } catch(e) {
+
+            monitorView.style.display = "none";
+            errorView.style.display = "block";
+            errorView.innerHTML = "<h4>Unable To Recognise Speech</h4><p>It looks like your browser doesn't support speech recognition. Please use a modern browser like <a href='https://www.google.com/chrome/' target='_blank'>Google Chrome</a> to use this feature.</p>";
+
+          }
+        }
+
+
+
+</script>
+<div class="modal fade" id="appleAppStoreModal" role="dialog"
+     aria-labelledby="appleAppStoreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Magasin D'Applications</h3></div>
+            <div class="modal-body text-center"><p>Sélectionnez une application Topgrade à afficher
+                sur le Apple App Store.</p> <br> <a target="_blank"
+                                                    href="https://itunes.apple.com/us/app/topgrade-quiz-maker/id673565359?mt=8"
+                                                    class="btn btn-primary btn-block" role="button">Quiz
+                Maker</a> <br> <a target="_blank"
+                                  href="https://itunes.apple.com/us/app/topgrade-flashcard-maker/id1128950682?mt=8"
+                                  class="btn btn-primary btn-block" role="button">Flashcard
+                Maker</a> <br> <a target="_blank"
+                                  href="https://itunes.apple.com/us/app/topgrade-courses/id1195340734?mt=8"
+                                  class="btn btn-primary btn-block" role="button">Course Maker</a>
+                <br> <a target="_blank"
+                        href="https://itunes.apple.com/us/app/topgrade-study-planner/id1349710192?mt=8"
+                        class="btn btn-primary btn-block" role="button">Planificateur D'Étude</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-block" data-dismiss="modal">
+                    Annuler
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="googlePlayModal" role="dialog" aria-labelledby="googlePlayModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h3 class="modal-title text-center">Jeu De Google</h3></div>
+            <div class="modal-body text-center"><p>Sélectionnez une application Topgrade à afficher
+                sur Google Play.</p> <br> <a target="_blank"
+                                             href="https://play.google.com/store/apps/details?id=com.revisionquizmaker.revisionquizmaker"
+                                             class="btn btn-primary btn-block" role="button">Quiz
+                Maker</a> <br> <a target="_blank"
+                                  href="https://play.google.com/store/apps/details?id=com.revisionquizmaker.flashcardmaker"
+                                  class="btn btn-primary btn-block" role="button">Flashcard
+                Maker</a> <br> <a target="_blank"
+                                  href="https://play.google.com/store/apps/details?id=ac.topgrade.android.course"
+                                  class="btn btn-primary btn-block" role="button">Course Maker</a>
+                <br> <a target="_blank"
+                        href="https://play.google.com/store/apps/details?id=topgrade.ac.topgradestudyplanner.topgradestudyplanner"
+                        class="btn btn-primary btn-block" role="button">Planificateur D'Étude</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-block" data-dismiss="modal">
+                    Annuler
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+            $('#confirmDelete').on('show.bs.modal', function (e) {
+                $message = $(e.relatedTarget).attr('data-message');
+                $(this).find('.modal-body p').text($message);
+                $title = $(e.relatedTarget).attr('data-title');
+                $(this).find('.modal-title').text($title);
+
+                // Pass form reference to modal for submission on yes/ok
+                var form = $(e.relatedTarget).closest('form');
+                $(this).find('.modal-footer #confirm').data('form', form);
+            });
+
+            <!-- Form confirm (yes/ok) handler, submits form -->
+            $('#confirmDelete').find('.modal-footer #confirm').on('click', function(){
+                $(this).data('form').submit();
+            });
+
+
+</script>
+<script type="text/javascript">
+            $('#flagModal').on('show.bs.modal', function (e) {
+                // Pass form reference to modal for submission on yes/ok
+                var form = $(e.relatedTarget).closest('form');
+                $(this).find('.modal-footer #confirm').data('form', form);
+            });
+            <!-- Form confirm (yes/ok) handler, submits form -->
+            $('#flagModal').find('.modal-footer #confirm').on('click', function(){
+                $(this).data('form').submit();
+            });
+
+
+</script>
+<script type="text/javascript">
+            $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+            });
+
+
+</script>
+<footer class="footer primary-background-color" style="padding-top: 10px;">
+    <div style="padding-left: 16px;" class="fb-page visible-xs-block"
+         data-href="https://www.facebook.com/TopgradeApp/" data-tabs="timeline" data-width="180"
+         data-height="70" data-small-header="true" data-adapt-container-width="true"
+         data-hide-cover="true" data-show-facepile="false">
+        <blockquote cite="https://www.facebook.com/TopgradeApp/" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/TopgradeApp/">Topgrade</a></blockquote>
+    </div>
+    <div class="col-md-12 primary-background-color"
+         style="padding-top: 10px; padding-left: 16px; padding-right: 16px; padding-bottom: 10px;">
+        <p class="primary-foreground-color" style="display:inline;"><b><i class="fas fa-globe"></i></b>&nbsp;
+        </p>
+        <a style="display:inline;" href="https://topgradeapp.com/id/playQuiz/animals-9"
+           class="primary-foreground-color">Bahasa Indonesia</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/ms/playQuiz/animals-9"
+           class="primary-foreground-color">Bahasa Melayu</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/de/playQuiz/animals-9"
+           class="primary-foreground-color">Deutsch</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/en/playQuiz/animals-9"
+           class="primary-foreground-color">English</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/es/playQuiz/animals-9"
+           class="primary-foreground-color">español</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/fr/playQuiz/animals-9"
+           class="primary-foreground-color">français</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/it/playQuiz/animals-9"
+           class="primary-foreground-color">italiano</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/nl/playQuiz/animals-9"
+           class="primary-foreground-color">Nederlands</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/pl/playQuiz/animals-9"
+           class="primary-foreground-color">polski</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/pt/playQuiz/animals-9"
+           class="primary-foreground-color">português</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/vi/playQuiz/animals-9"
+           class="primary-foreground-color">Tiếng Việt</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/tr/playQuiz/animals-9"
+           class="primary-foreground-color">Türkçe</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/el/playQuiz/animals-9"
+           class="primary-foreground-color">Ελληνικά</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/ru/playQuiz/animals-9"
+           class="primary-foreground-color">русский</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/ar/playQuiz/animals-9"
+           class="primary-foreground-color">العربية</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/hi/playQuiz/animals-9"
+           class="primary-foreground-color">हिन्दी</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/ja/playQuiz/animals-9"
+           class="primary-foreground-color">日本語</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/zh/playQuiz/animals-9"
+           class="primary-foreground-color">简体中文</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/zh-Hant/playQuiz/animals-9"
+           class="primary-foreground-color">繁體中文</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+        <a style="display:inline;" href="https://topgradeapp.com/ko/playQuiz/animals-9"
+           class="primary-foreground-color">한국어</a>
+        <p style="display:inline;" class="primary-foreground-color"> &nbsp;|&nbsp; </p>
+    </div>
+    <div class="clearfix primary-background-color"></div>
+    <div class="col-md-12 primary-background-color"
+         style="padding-bottom: 10px; padding-left: 32px; padding-right: 32px;">
+        <a class="pull-right" type='button' data-toggle="modal" data-target="#appleAppStoreModal">
+            <img style="padding: 3px; cursor: pointer;" alt="Download from iTunes App Store"
+                 src="/badge-download-on-the-app-store.png" width="160" height="50">
+        </a>
+        <a class="pull-right" type='button' data-toggle="modal" data-target="#googlePlayModal">
+            <img style="padding: 3px; cursor: pointer;" alt="Download from Google Play Store"
+                 src="/getOnGooglePlay.png" width="140" height="50">
+        </a>
+        <div class="clearfix primary-background-color"></div>
+    </div>
+    <div class="text-center primary-background-color primary-foreground-color"
+         style="padding-left: 8px; padding-right: 8px;">
+        <a class="primary-foreground-color" href="/contactUs"> Contactez Nous</a> |
+        <a class="primary-foreground-color" href="https://topgradenews.com"> Nouvelles</a>
+        | <a class="primary-foreground-color" href="/press"> Presse</a>
+
+        | <a class="primary-foreground-color" href="/services/white-label"> Marque Blanche</a>
+        |
+        <a class="primary-foreground-color" href="/app/termsAndConditions"> Termes et
+            conditions </a>
+        |
+        <a class="primary-foreground-color" href="/app/privacypolicy"> Politique De
+            Confidentialité</a>
+    </div>
+    <div class="text-center primary-background-color primary-foreground-color"
+         style="padding-left: 8px; padding-right: 8px;">
+        <a class="primary-foreground-color" href="https://sureware.co.uk">&copy; Sureware Ltd.
+            2013-2019 | Enregistré en Angleterre et au Pays de Galles | Numéro D'Entreprise
+            10718435</a><br>
+    </div>
+    <div class="text-center primary-background-color primary-foreground-color"
+         style="padding-top: 12px; padding-left: 8px; padding-right: 8px;">
+        <p class="primary-foreground-color"> Topgrade est une marque commerciale de Sureware Ltd. |
+            Version Du Site 6.2.5 </p><br>
+    </div>
+    <div class="clearfix primary-background-color"></div>
+</footer>
+<script src="/js/app.min.js"></script>
+<script src="/js/adminlte.min.js"></script>
+<script>
+
+    document.getElementById("numberOfQuestionsHeading").innerHTML = 'Question ' + currentQuestionNumber + ' de ' + currentQuestionsArrayLength;
+
+    function updateTheQuestionCountHeading() {
+        document.getElementById("numberOfQuestionsHeading").innerHTML = 'Question ' + currentQuestionNumber + ' de ' + currentQuestionsArrayLength;
+    }
+
+    // Load up the question
+    document.getElementById("revealAnswersButton").addEventListener("click", function () {
+        clearInterval(timerInterval);
+        skipTheQuestion();
+        rootRevealAllAnswers();
+    });
+
+    document.getElementById("skipQuestionButton").addEventListener("click", function () {
+
+        userPressedSkip();
+
+    });
+
+    document.getElementById("playNextQuestionButton").addEventListener("click", loadUpTheNextAnswer);
+    function skipTheQuestion() {
+        totalNumberSkipped = totalNumberSkipped + 1;
+        updateResult(0);
+    }
+
+            startTimer();
+
+    function saveMatchingOrOrderingAnswersGiven() {
+
+        var rows = document.getElementById("sortableMatchingTable" + count).rows;
+
+        answersGiven = [];
+        rowNumber = 0;
+        Array.prototype.forEach.call(rows, function (el) {
+
+            var answerTitleAndSequenceOrder = el.childNodes[1].id.split("SequenceOrder");
+            answersGiven.push(answerTitleAndSequenceOrder[0])
+
+       });
+
+    }
+
+    function saveQuestionScoreAnswersIfNeeded() {
+
+        // Ordering or matching
+        if (currentQuestionType == "answerType_id2" || currentQuestionType == "answerType_id3") {
+
+             saveMatchingOrOrderingAnswersGiven();
+
+        }
+    }
+
+    currentQuestionType = document.getElementById("questionNumber" + (count - 1)).getAttribute("name");
+    saveQuestionScoreAnswersIfNeeded();
+
+    function rootRevealAllAnswers() {
+        currentNumberCorrect = 0;
+
+        // Show the explanation box
+        document.getElementById("explanation" + count).style.display = "block";
+        currentQuestionType = document.getElementById("questionNumber" + (count - 1)).getAttribute("name");
+
+        if (currentQuestionType == "answerType_id0") {
+            // Multiple choice view
+            revealAllAnswers();
+        } else if (currentQuestionType == "answerType_id1") {
+            // Fillintheblanksview
+            revealAllFillInTheBlankAnswers();
+        } else if (currentQuestionType == "answerType_id2") {
+            // Ordering or matching
+            revealAllAnswers2 = true;
+            revealAllMatchingAnswers();
+        } else if (currentQuestionType == "answerType_id3") {
+            // Ordering or matching
+            revealAllAnswers2 = true;
+            revealAllMatchingAnswers();
+        } else if (currentQuestionType == "answerType_id4") {
+            // Flashcard
+            revealAllFlashcardAnswers();
+        } else if (currentQuestionType == "answerType_id5") {}
+    }
+    document.getElementById("modalNextQuestion").addEventListener("click", loadUpTheNextAnswer);
+    document.getElementById("modalViewAnswers").addEventListener("click", rootRevealAllAnswers);
+    document.getElementById("modalNextQuestion4").addEventListener("click", loadUpTheNextAnswer);
+    document.getElementById("modalViewAnswers4").addEventListener("click", rootRevealAllAnswers);
+    document.getElementById("modalNextQuestionOutOfTime").addEventListener("click", loadUpTheNextAnswer);
+    document.getElementById("modalViewAnswersOutOfTime").addEventListener("click", rootRevealAllAnswers);
+
+    function initFormView() {
+
+        revealAllAnswers2 = false;
+        revealAllAnswers3 = false;
+        currentNumberCorrect = 0;
+        document.getElementById("numberToGuessCorrectHeading" + count).innerHTML = '(' + currentNumberCorrect + '/' + document.getElementById("count" + count).innerHTML + ')';
+
+        if (currentQuestionType == "answerType_id4") {
+
+            document.getElementById("flashcard" + count).addEventListener('click', function() {
+
+                document.getElementById("flashcard" + count).classList.toggle('flipped');
+                document.getElementById("front" + count).classList.toggle('rotateX180');
+                document.getElementById("back" + count).classList.toggle('hideBack');
+
+            });
+        }
+    }
+
+    initFormView();
+
+    function updateResult(result) {
+
+       if (result == 1) {
+
+            incrementUserScore();
+
+       }
+
+       var index = count - 1;
+       document.getElementById("questionResult" + index).innerHTML = result;
+
+    }
+
+    var answersGiven = [];
+    var inputsActivated = [];
+    var scorePosted = false;
+    //var questionScoreType = "";
+
+    function postTheScore() {
+
+        if (scorePosted) {
+            return;
+        } else {
+            scorePosted = true;
+        }
+
+        // Post the score
+        $.ajaxSetup({ headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') } });
+
+        var index = count - 1;
+        var questionId = document.getElementById("questionId"  + index).innerHTML;
+        var questionResult = document.getElementById("questionResult" + index).innerHTML;
+        var quizSlug = document.getElementById("quizSlug").innerHTML;
+
+
+            if (highscoreId != null) {
+
+                var arrayLength = inputsActivated.length;
+
+                for (var i = 0; i < arrayLength; i++) {
+
+                    answersGiven.push(inputsActivated[i].value);
+
+                }
+
+                var jsonAnswers = JSON.stringify(answersGiven);
+                var questionTypeId = currentQuestionType.substr(currentQuestionType.length - 1);
+
+                var dataToPost = {questionScoreType: questionTypeId, answersGiven:jsonAnswers, number_correct:totalNumberCorrect, number_skipped:totalNumberSkipped, number_wrong:totalNumberIncorrect, quizSlug:quizSlug, highscoreId:highscoreId, questionId:questionId, questionResult:questionResult};
+
+                function onSuccess(data, status, xhr) {
+
+                    if (data == 'success') {
+
+                        document.getElementById("scoreReturnText").innerHTML = "Score enregistré"
+
+                    } else {
+
+                        document.getElementById("scoreReturnText").innerHTML = "Score non enregistré. Veuillez vous connecter ou créer un compte pour sauvegarder vos scores.";
+
+                        document.getElementById("saveScoreButton").style.display = "block";
+
+                        document.getElementById("loginLink").href = "/auth/login?q="+quizSlug+"&c="+totalNumberCorrect+"&i="+totalNumberIncorrect+"&s="+totalNumberSkipped+"&r=0";
+                        document.getElementById("registerLink").href = "/auth/register?q="+quizSlug+"&c="+totalNumberCorrect+"&i="+totalNumberIncorrect+"&s="+totalNumberSkipped+"&r=0";
+
+                    }
+                }
+
+                $.post('/ajax/post/score', {payload:dataToPost}, onSuccess);
+
+            } else {
+
+               document.getElementById("scoreReturnText").innerHTML = "Jouez au quiz complet pour enregistrer votre score.";
+
+            }
+
+
+    }
+
+    function loadUpTheNextAnswer() {
+
+        postTheScore();
+
+        // Reset for next answer
+        scorePosted = false;
+
+        currentQuestionNumber = currentQuestionNumber + 1;
+
+        // Find if not the last question
+        if (currentQuestionNumber <= currentQuestionsArrayLength) {
+
+            var testNumber = currentQuestionNumber - 1;
+            if (testNumber % MAX_QUESTION_COUNT == 0 && currentQuestionNumber != 1) {
+
+                document.getElementById("answeringQuestionsPanelBody").style.display = "none";
+                document.getElementById("loadingQuestionsPanelBody").style.display = "block";
+                document.getElementById("nextPage").click();
+
+            } else {
+
+                document.getElementById("loadingQuestionsPanelBody").style.display = "none";
+                document.getElementById("skipQuestionButton").style.display = "block";
+                document.getElementById("playNextQuestionButton").style.display = "none";
+                document.getElementById("revealAnswersButton").style.display = "block";
+                updateTheQuestionCountHeading();
+
+                if (count > 0) {
+
+                    count2 = count - 1;
+                    document.getElementById("questionNumber" + count2).style.display = "none";
+
+                }
+
+                document.getElementById("questionNumber" + count).style.display = "block";
+                currentQuestionType = document.getElementById("questionNumber" + count).getAttribute("name");
+                count++;
+
+                                    startTimer();
+
+                initFormView();
+
+                autoplayQuestion(count);
+
+            }
+        } else {
+
+            document.getElementById("loadingQuestionsPanelBody").style.display = "none";
+
+            if (count > 0) {
+
+                count2 = count - 1;
+                document.getElementById("questionNumber" + count2).style.display = "none";
+
+            }
+
+            document.getElementById("answeringQuestionsPanelBody").style.display = "none";
+            document.getElementById("resultsPanelBody").style.display = "block";
+            document.getElementById("numberCorrectText").innerHTML = totalNumberCorrect;
+            document.getElementById("numberIncorrectText").innerHTML = totalNumberIncorrect;
+            document.getElementById("numberSkippedText").innerHTML = totalNumberSkipped;
+            document.getElementById("overallPercentageText").innerHTML = parseInt(totalNumberCorrect / (totalNumberCorrect + totalNumberIncorrect + totalNumberSkipped) * 100) + "%";
+
+        }
+
+        // Reset answers given array
+        answersGiven = [];
+        inputsActivated = [];
+        questionScoreType = "";
+
+        saveQuestionScoreAnswersIfNeeded();
+
+        setTableHeights();
+
+    }
+
+    if (questionIndex != - 1) {
+
+        runProgram = 1;
+
+        while (runProgram < questionIndex + 1) {
+
+            runProgram = runProgram + 1;
+            loadUpTheNextAnswer();
+
+        }
+    }
+
+    var timerInterval;
+
+    // Get to play all questions first before add exception
+    // Want to say if isLanguageQuiz and fill in the blanks play answer
+    function autoplayQuestion(count) {
+
+        // removed $isGoldMember ||
+
+    }
+
+    function startTimer() {
+
+        clearInterval(timerInterval);
+
+        var duration = document.getElementById("questionTime" + (count - 1)).innerHTML;
+
+        if (duration <= 0) {
+
+            duration = 1;
+
+        }
+
+        var display = document.querySelector('#time');
+        var start = Date.now();
+        var diff;
+        var minutes;
+        var seconds;
+
+        function timer() {
+
+            diff = duration - (((Date.now() - start) / 1000) | 0);
+            minutes = (diff / 60) | 0;
+            seconds = (diff % 60) | 0;
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+            display.textContent = minutes + ":" + seconds;
+
+            if (duration <= (((Date.now() - start) / 1000) | 0)) {
+
+                outOfTimeButton.click();
+                clearInterval(timerInterval);
+                totalNumberIncorrect = totalNumberIncorrect + 1;
+                updateResult(-1);
+
+            } else if (diff <= 0) {
+
+                start = Date.now() + 1000;
+
+            }
+        };
+
+        timer();
+        timerInterval = setInterval(timer, 1000);
+
+    }
+
+    function setTableHeights() {
+
+        var i;
+
+        for (i = 1; i <= 2; i++) {
+
+            var max = 0;
+            var string1 = "table td[name=tableCount";
+            var string2 = i;
+            var string3 = string1.concat(string2);
+            var string4 = "]";
+            var string5 = string3.concat(string4);
+
+            $(string5).each(function() {
+
+                max = Math.max($(this).height(), max);
+
+            }).height(max);
+        }
+    }
+
+    setTableHeights();
+
+    autoplayQuestion(count);
+
+
+
+</script>
+<script type="text/javascript">
+    function incrementUserScore() {}
+
+
+</script>
+<script type="text/javascript">
+
+    $('#questionFinished').on('show.bs.modal', function (e) {
+        $message = $(e.relatedTarget).attr('data-message');
+        $(this).find('.modal-body p').text($message);
+        $title = $(e.relatedTarget).attr('data-title');
+        $(this).find('.modal-title').text($title);
+    });
+    $('#questionFinished').find('.modal-footer #confirm').on('click', function(){});
+
+    $('.sortable').sortable({
+        cursor: 'move',
+        axis: 'y',
+        update: function (event, ui) {
+
+            saveMatchingOrOrderingAnswersGiven();
+
+       }
+    });
+
+
+
+</script>
+</body>
+</html>
