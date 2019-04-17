@@ -57,7 +57,7 @@ public class TopGradeWebsiteParser {
     }
 
     private QPackage.Builder createQpackageBuilder(String html) {
-        QPackage.Builder builder = system.packageBuilder();
+        QPackage.Builder builder = getSystem().packageBuilder();
         Document doc = Jsoup.parse(html);
         String nextQuestionId;
         int index = 0;
