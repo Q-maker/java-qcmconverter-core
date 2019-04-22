@@ -81,6 +81,7 @@ public class TopGradeWebsiteParser {
             index++;
         }
         QSummary summary = new QSummary(doc.title());
+        summary.setId("Topgrade-" + html.hashCode());
         summary.setDuration(durationSecond * 1000);
         summary.getConfig().setTotalQuestionCount(qcmList != null ? qcmList.size() : 0);
         summary.getConfig().setMarksPolicyDefinition(MarksPolicyDefinition.ONE_PER_SUCCESS);
